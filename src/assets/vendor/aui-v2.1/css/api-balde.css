@@ -1,0 +1,64 @@
+
+.aui-bar-nav {background-color: var(--text-color);}
+.aui-bar-tab .aui-active {color: var(--text-color);}
+.aui-tab-item.aui-active {color: var(--text-color);border-bottom: 2px solid var(--text-color);}
+.aui-tab-item.aui-active a{color: var(--text-color);}
+.aui-text-info{color: var(--text-color) !important;}
+.aui-btn-info {color: #ffffff !important;background-color: var(--text-color) !important;}
+.aui-btn-info.aui-active, .aui-btn-info:active {color: #fff !important;background-color: var(--text-color) !important;}
+.aui-label-info {color: #ffffff;background-color: var(--text-color);}
+ .aui-btn-outlined {background: transparent !important;border: 1px solid #bdbdbd;}
+.aui-btn-info.aui-btn-outlined {color: var(--text-color) !important;border: 1px solid var(--text-color) !important;}
+.aui-bg-9{color: var(--text-color) !important;  border: 1px solid var(--text-color) !important; }
+/* 琛ㄦ牸鏍峰紡*/
+.aui-table td {border-bottom: 1px dashed var(--text-color) !important;border-right: 1px dashed var(--text-color) !important;}
+.aui-table-border-l {border-left: 1px dashed var(--text-color) !important;}
+.aui-table-border-r {border-right: 1px dashed var(--text-color) !important;}
+.aui-table-border-t {border-top: 1px dashed var(--text-color) !important;}
+.aui-table-border-b {border-bottom: 1px dashed  var(--text-color) !important;}
+.aui-table-border {border: 1px dashed var(--text-color) !important;}
+/*妫�鏌ョ晫闈㈣摑鑹茶儗鏅�*/
+.aui-bg-color1 {
+  width: 100%;
+ /* background: -ms-linear-gradient(top, #fff, var(--text-color));       
+  background: -moz-linear-gradient(top, #fff, var(--text-color));
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(var(--text-color)));
+
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(var(--text-color)));    
+
+  background: -webkit-linear-gradient(top, var(--text-color), #fff);   
+
+  background: -o-linear-gradient(top, var(--text-color), #fff);  
+
+  */
+ background-color: var(--text-color)  !important;;
+}
+.aui-bar-btn-item {border-color: var(--text-color); }
+.aui-bar-btn-item.aui-active {background-color: var(--text-color);color: #ffffff;}
+.aui-progress-bar {background-color: var(--text-color);}
+.aui-add{background-color: var(--text-color)  !important;}
+
+.layui-tab-card>.layui-tab-title .layui-this {
+    background-color: var(--text-color)  !important;
+}
+.layui-tab-card>.layui-tab-title {
+   
+    color:  var(--text-color)  !important;
+}
+/*单选多选按钮开关*/
+
+.aui-checkbox.aui-checked {
+    background-color: var(--text-color);
+    border: solid 1px var(--text-color);
+    text-align: center;
+    background-clip: padding-box;
+}
+.aui-switch:checked {
+    border-color: var(--text-color);
+    background-color: var(--text-color);
+}
+/*加减按钮*/
+.aui-btn-as{ border:1px  var(--text-color) solid !important; }
+.aui-btn-as.aui-active {background: var(--text-color) !important;}
+.aui-btn-as.aui-active a{color:  var(--text-color) !important;}
+.aui-bar-tab .aui_active {color: var(--text-color);}

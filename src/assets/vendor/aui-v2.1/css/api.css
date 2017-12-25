@@ -1,0 +1,346 @@
+.layui-layer-shade{left:auto !important;}
+html,body,footer {margin:0 auto !important;}
+html,body,footer{-webkit-user-select:auto;max-width: 640px;}
+a {color: #24292c;font-weight: normal;}
+.aui-text-ellipsis{ height:80px; overflow: hidden;text-overflow: ellipsis ;}
+.aui-btn .aui-iconfont, .aui-btn-block .aui-iconfont {margin-right: 0rem; }
+.aui-btn .aui-badge, .aui-btn-block .aui-badge { margin-left: 0rem;}
+/*vue中active样式*/
+.aui_active {background-color: #03a9f4;color: #ffffff;}
+/*标题样式*/
+.aui-bar-nav .aui-title {/*white-space: nowrap;*/right: 2rem;left: 2rem;/*  text-overflow: ellipsis;*/z-index: 2;}
+/*字体加粗*/
+.aui-font-weight{font-weight: bold;}
+/*字体颜色*/
+.aui-text-1 {color: #11aff1 !important;}
+.aui-text-2 {color: #f5bb00 !important;}
+.aui-text-3 {color: #24292c !important;}
+.aui-text-4 {color: #999999 !important;}
+.aui-text-5 {color: #e6f8ff !important;}
+.aui-text-6 {color: #f3f8f8 !important;}
+.aui-text-7{color: #bc7700 !important;}
+.aui-text-wx{color: #7dd53c !important;}
+/*margin-bottom2.5*/
+.aui-margin-b-25{ margin-bottom: 2.5rem !important; }
+.aui-margin-t-25{ margin-top: 2.5rem !important; }
+/*背景颜色*/
+.aui-bg-blue{ background-color: #e6f8ff !important; }
+.aui-bg-1 {background-color: #11aff1 !important;}
+.aui-bg-2 {background-color: #00bcd4 !important;}
+.aui-bg-3 {background-color: #f5bb00 !important;}
+.aui-bg-4 {background-color: #999999 !important;}
+.aui-bg-5 {background-color: #e6f8ff !important;}
+.aui-bg-6 {background-color: #f3f8f8 !important;}
+.aui-bg-7 {background-color: #fff !important;}
+.aui-bg-8 {background-color: #fefbd2 !important;}
+.aui-bg-9 {background:#fff url(/images/often/choose.png) no-repeat right bottom !important;}
+.aui-bg-10 {background-color: #fffeeb !important;}
+
+/*字体大小*/
+.aui-font-size-10 {font-size: 0.1rem !important;}
+/*icon图标*/
+.aui-add {display: inline-block;width: 30px;height: 30px;text-align: center;line-height: 30px;border-radius: 50%;color: #ffffff;background-color: #11aff1;position: absolute;z-index: 99;}
+.aui-add .aui-font-size-21 {font-size: 16px !important; font-weight: bold;}
+/*边框*/
+.aui-border-size-1 {border-radius: 0.2rem !important;}
+.aui-border-size-2 {border-radius: 0.4rem !important;}
+.aui-border-size-3 {border-radius: 0.6rem !important;}
+.aui-border-size-4 {border-radius: 0.8rem !important;}
+.aui-border-size-5 {border-radius: 10rem !important;font-weight: bold;}
+.aui-border-color-1 {border: 2px solid #eae2b8;}
+.aui-border-b-1 {border-bottom: 1px dashed #f3d36a;}
+/*单位样式*/
+.aui-unit{font-size: 14px; color:#9e9fa1}
+/*按钮*/
+.aui-border-1 {border: 2px solid #f5bb00;}
+.aui-radio,
+.aui-checkbox {
+    width: 1rem;
+    height: 1rem;
+    -webkit-border-radius: 0.5rem;
+    border-radius: 0.5rem;
+    font-size: 0.5rem;
+   
+}
+.aui-radio:checked, .aui-radio-1.aui-checked, .aui-checkbox:checked, .aui-checkbox.aui-checked {
+  background-color: #f5bb00;
+  border: solid 1px #f5bb00;
+  text-align: center;
+  background-clip: padding-box;
+}
+.aui-switch-1 {
+  width: 2.3rem;
+  height: 1.2rem;
+  position: relative;
+  vertical-align: top;
+  border: 1px solid #dddddd;
+  background-color: #dddddd;
+  border-radius: 0.6rem;
+  background-clip: content-box;
+  display: inline-block;
+  outline: none;
+  -webkit-appearance: none;
+  appearance: none;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.aui-switch-1:before {
+  width: 1.1rem;
+  height: 1.1rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 0.6rem;
+  background-color: #fff;
+  content: '';
+  -webkit-transition: left 0.2s;
+  transition: left 0.2s;
+}
+.aui-switch-1:checked {
+  border-color: #f5bb00;
+  background-color: #f5bb00;
+}
+.aui-switch-1:checked:before {
+  left: 1.1rem;
+}
+/*检查界面蓝色背景*/
+/*.aui-bg-color1 {
+  width: 100%;
+  background: -ms-linear-gradient(top, #fff, #11aff1);        
+  background: -moz-linear-gradient(top, #fff, #11aff1);
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#11aff1));/
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#11aff1));    
+  background: -webkit-linear-gradient(top, #11aff1, #fff);  
+  background: -o-linear-gradient(top, #11aff1, #fff);  
+}*/
+
+/*点赞样式*/
+.heart {
+  background:url(/images/often/web_heart_animation.png) center left ;
+  background-position:left;
+  background-repeat:no-repeat;
+  height:20px;
+  width:50px;
+  cursor:pointer;
+  position:absolute;
+
+  background-size:2900%;
+}
+.heart:hover, .heart:focus{
+  background-position:right;
+}
+
+@-webkit-keyframes heartBlast {
+  0% {
+    background-position:left;
+  }
+  100% {
+    background-position:right;
+  }
+}
+
+@keyframes heartBlast {
+  0% {
+    background-position:left;
+  }
+  100% {
+    background-position:right;
+  }
+}
+
+.heartAnimation {
+  display:inline-block;
+  -webkit-animation-name:heartBlast;
+  animation-name:heartBlast;
+  -webkit-animation-duration:.8s;
+  animation-duration:.8s;
+  -webkit-animation-iteration-count:1;
+  animation-iteration-count:1;
+  -webkit-animation-timing-function:steps(28);
+  animation-timing-function:steps(28);
+  background-position:right;
+}
+.likeCount{font-family:'Georgia', Times, Times New Roman, serif; margin-top:32px;margin-left:68px;font-size:25px;color:#999999}
+/*头部*/
+.gray-bg{background-color:#ebebeb;}
+.fuYaoShenQing,.qinZiZuoYe,.JobManagement,.OnlineLeave{margin-bottom:50px;}
+/*-------首页----------*/
+.index.row{margin-left:0; margin-right:0;}
+.text-center a{text-decoration:none !important;}
+.Headbox-z{width:100%; height:130px;background:#e6f8ff; background-size:100% 150px; overflow:hidden;}
+.Headbox-z .Head-z{width:85px; height:85px;margin:auto;margin-top:20px;/*border:solid 2px #fff; */overflow:hidden; }
+.Headbox-z .Head-z img{ display:block; width:100%;  border-radius:50px;}
+.Icon_Head1-z{ display:block;width:50px; height:50px;  margin:auto;margin-top:45px; float:right; margin-right: 10px;}
+.Icon_Head-z{ display:block; margin:auto;margin-top:40px;  }
+.Icon_Head-t{ margin-top:30px;width:100%;  }
+
+.Icon_Head1-z{background:url(/images/often/Icon_Head_02.png) no-repeat center center;background-size:100%; }
+.Iconbox-z{ margin-top:5px;}
+.Icon-z{ display:block;width:100%;margin-top:10px;}
+.Icon-z>div{ width:75px; height:75px;margin:auto;}
+.Icon-z>div>img{display:block; width:100%;}
+
+/*-------班级选择弹出----------*/
+.popup{width:80%; height:auto;background-color:#fff;position:absolute;z-index:100;border:1px solid #ebeaea;display:none;}
+.popup .top_nav{width:100%; height:40px;line-height: 40px;margin-bottom: 10px;border-bottom:1px solid #ebeaea;position:relative;cursor:move;color:#11aff1;}
+.popup .top_nav a.close { width:35px; height: 40px; display: block; top:0px; position:absolute;right:10px;cursor:pointer;}
+.popup .top_nav a.correct{width:35px; height: 40px; display: block; top:0px; position:absolute;left:10px;cursor:pointer;}
+
+/*-------加减按钮----------*/
+.aui-btn-as{width: 20px ; height: 20px;line-height: 20px; margin-top: 0px; border-radius: 20px; border:1px #11aff1 solid; float:left; }
+.aui-btn-as.aui-active {background:#11aff1 ;color: #fff;}
+.aui-btn-as.aui-active a{color: #11aff1;}
+.aui-btn-data{ width: 60px; height: 26px;line-height: 26px; margin-top: 0px;  float:left; text-align: center;  }
+ /*------成绩上升下降----------*/
+.aui-img-up,.aui-img-down{height:34px;color:#fff; line-height: 44px; text-align: center;   font-size: 14px;  }
+.aui-img-down{line-height: 24px; }
+.aui-img-up{background: url(/images/often/up.png) no-repeat center center;}
+.aui-img-down{background: url(/images/often/down.png) no-repeat center center;}
+/*------角标方形----------*/
+.aui-badge-square{position: absolute; top:-2px; right:0px;z-index: 99; float: right; font-size: 8px;font-weight:bold;width: 0;height: 0;border-top: 30px solid red;border-left: 30px solid transparent; }
+ .aui-badge-square span{position: absolute; top:-30px; right:3px;z-index: 99; float: right; font-size: 10px;color:#fff;}
+ .course_content td{  position: relative;  }
+ /*------角标----------*/
+ .aui-badge-read,.aui-badge-delet{position: absolute; top:-2px;z-index: 99; font-size: 8px;font-weight:bold;}
+ .aui-badge-read span,.aui-badge-delet span{ left:3px;z-index: 99; float: right; font-size: 10px;color:#fff;}
+.aui-badge-read{ position: absolute; left:0px;float: left; width: 0;height: 0;border-top: 30px solid red;border-right: 30px solid transparent; }
+.aui-badge-read span{ top:-30px; }
+
+.aui-badge-delet{ right:0px;float: right; width: 24px;height: 24px;border-radius: 12px; line-height: 24px; text-align: center;background: #ccc;}
+.aui-badge-delet span{ top:0px;}
+
+.aui-badge-studentid{ position: absolute; bottom:0px; right:0px;z-index: 99; float: left; font-size: 8px;font-weight:bold; width: 0;height: 0;border-bottom: 25px solid #7bdaff; border-left: 25px solid transparent;}
+.aui-badge-studentid span{position: absolute; bottom:-27px; right:2px;z-index: 99; float: right; font-size: 10px;color:#000;}
+
+.aui-badge-ranking{position: absolute;bottom:0px; right:0px;z-index: 99; float: left; font-size: 8px;font-weight:bold;width: 0; height: 0;border-bottom: 20px solid #f5b340; border-left: 20px solid transparent;}
+.aui-badge-ranking span{position: absolute; bottom:-22px; right:2px;z-index: 99; float: right; font-size: 10px;color:#fff;}
+
+.aui-student-id{width: 24px !important;height: 24px; position:  relative;color:#fff ; font-size: 23px; display: block;text-align: center;float: left;/* background:#fff url(/images2/often/studentidbg.png) no-repeat !important;*/}
+.aui-student-id span{ font-size: 12px; color:#fff; position: absolute; left:0px; width: 24px !important;height: 24px; }
+
+.studentid_top{bottom:0px !important;}
+.studentid_span{ bottom:-38px !important; right:0px !important;} 
+/*检查模块头部*/
+.aui-goclass-header{width: 100%; height: 135px;margin-bottom: -53px;  position: relative;  background: url(/images/often/checklist_bg.png) center no-repeat; z-index: 999999}
+.aui-goclass-header .aui-header-score{ width: 100%; height: 80px; line-height: 125px; font-size: 50px; }
+.aui-goclass-header .aui-header-score font{ font-size: 28px;}
+.aui-header-class{ height: 35px; line-height:35px; font-size: 14px;}
+.aui-header-time{position: relative;  top:-55px;color:#fff}
+/*图文样式*/  
+.file0{opacity: 0.0; width: 96px;height: 96px;position: absolute;left: 0px;}
+.acc_imgin{ width: 96px;height: 96px;}
+/*请假模块时间切换样式*/
+.aui-time-bigin,.aui-time-end{width: 100%; height: 35px ;line-height: 35px;}
+.aui-time-bigin ul li,.aui-time-end ul li{ width: 100%; text-align: center; }
+.aui-time-m,.aui-time-d,.aui-time-t{  height: 35px ;line-height: 35px;}
+.aui-time-m{width: 25%;margin-right:3%;}
+.aui-time-d{width: 40%;margin-right:3%;}
+.aui-time-t{width: 25%;}
+.aui-time ul{  width: 75%; height: 35px ;line-height: 35px; float:left;}
+.aui-time-m .aui-iconfont, .aui-time-t .aui-iconfont{width: 10%;height: 35px ;line-height: 35px; font-weight: bold}
+/*首页菜单标题*/
+.aui-grid-label{ height: 30px; line-height: 15px; font-size: 0.65rem }
+/*表格样式*/
+.t1 {background-color:#e6f8ff;position: relative;}  
+.t2 {background-color:#f3f8f8;position: relative;}  
+.aui-table tr td{ position: relative; }
+.aui-flag{ position: absolute !important;; top:-2px; left:-2px; }
+/*微信分享*/
+#mcover{ position: fixed; top:0;  left:0; width:100%; height:100%;background:rgba(0, 0, 0, 0.7);  display:none;z-index:20000;}
+#mcover img {position: fixed;right: 18px;top:5px;width: 260px;height: 180px;z-index:20001;}
+#mcover .img{width: 100%;min-width: 100%;height: 50px;margin:0 auto;text-align: center;font-size: 20px;}
+/*周汇总条样式*/
+.aui-week-box{ height: 3rem; margin-bottom: 15px; background: #fff;}
+.aui-week-title{width: 8%;padding:0 2%; height: 3rem;  line-height: 1.5rem;}
+.aui-week-li{width: 23%;   height: 3rem;    line-height: 1rem;padding: 0.25rem;}
+.aui-week-li i{font-size: 1.4rem;line-height: 1.4rem;}
+/*校历模块样式*/
+.aui-xiaoli-bg{background: #fdfbee; }
+.aui-xiao-pn{width:100%;max-width:640px; height: 100%;  position: absolute;}
+.aui-xiaoli-prev,.aui-xiaoli-next{width: 20%;text-align: center; height: 100%;- line-height: 100%;  z-index: 9999; font-size:15px;}
+.aui-xiaoli-prev{float:left;}
+.aui-xiaoli-next{float:right; right:0;}
+#kalendar {margin:0px auto;width:100%}
+#kalendar th{width:12.5%;}
+#kalendar tr td{text-align: center}
+.school_timeshow{ width: 100%; height: 60px; text-align: center; background:url(/images/often/school_timeshow.png) center no-repeat; }
+#top_bg{ width: 100%; height: 10px;  background:url(/images/often/aui-title-bg.jpg)    ; }
+#kalendar td{border: 1px #fde259 dashed;}
+.school_title{color:#bc7700; font-weight: bold; font-size:18px;  text-align: center; line-height: 60px; }
+/*圆角边框*/
+.aui-border-radius-top{border-top:1px solid #eeeeee;border-radius: 10px 10px 0px 0px;}
+.aui-border-radius{border-top:1px solid #eeeeee;border-radius:10px;}
+
+/*表格样式*/
+table {border:none;background-color: transparent;border-bottom: 1px solid #dce6e9;}
+caption { padding-top: 8px;padding-bottom: 8px;color: #777;text-align: left;}
+.aui-table th {text-align: center;border: none; padding: 10px 0px;background: #f3f8f8;border: 1px solid #dce6e9; font-size:14px; color:#000;}
+.aui-table{  border:none;background-color: transparent;border-bottom: 1px solid #dce6e9;}
+.aui-table td {border-bottom: 1px dashed #11aff1;border-right: 1px dashed #11aff1;padding: 2px;font-size: 14px; text-align: center;height: 40px}
+.aui-table .aui-last-td { border-bottom: none;}
+.aui-table-border-l {border-left: 1px solid #11aff1;}
+.aui-table-border-r {border-right: 1px solid #11aff1;}
+.aui-table-border-t {border-top: 1px solid #11aff1;}
+.aui-table-border-b {border-bottom: 1px dashed  #11aff1;}
+.aui-table-border {border: 1px solid #11aff1;}
+.aui-border-t-1 {border-top: 4px solid #e6f8ff;}
+.aui-box-shadow{ box-shadow: 0 1px 3px rgba(0,0,0,.12);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,.12);
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.12);}
+/*鍘婚櫎鑻规灉鎸夐挳鏍峰紡*/
+input[type="button"], input[type="submit"], input[type="reset"] {-webkit-appearance: none;}
+textarea { -webkit-appearance: none;}
+/*选择人员按钮*/
+#topcontrol{background:#4c4c4c; height:30px; width:30px; border-radius:4px;z-index: 9999; color: #fff; line-height: 30px; font-size: 14px;text-align:center}
+.aui-btn-choose{text-align: center; width:30px; height:30px;  line-height: 30px; border-radius: 1rem !important; padding: 0 !important; margin-top: 5px;}
+/*男女按钮选择*/
+.girl {background-position: 0 -17px;}
+/*按钮不可点击样式*/
+input:disabled{background-color: #ddd !important;color:#545454 !important;}
+input[disabled]{background-color: #ddd !important;color:#545454 !important;}
+* html input.disabled{background-color: #ddd !important;color:#545454 !important;}
+/*点名簿学生名单样式*/
+.aui-student-td{ font-size: 14px; background: #fff; }
+.layui-tab-title li,.layui-tab-title{ height: 2.5rem !important; line-height: 1.1rem !important; }
+.layui-tab-title li i{font-size: 1.25rem !important; }
+.layui-tab-title  .layui-this p ,.layui-tab-title  .layui-this i{color:#fff !important }
+.aui-border-b-1 .aui-card-list-header{ min-height: 2.0rem; }
+
+/*修改aui-card-list-header最小高度*/
+.aui-border-b-1 .aui-card-list-header{ min-height: 2.0rem; }
+/*表格行斑马线设置*/
+tr:nth-child(odd)   { background-color:#e6f8ff; }
+tr:nth-child(even)  { background-color:#fff; }
+/*联系人列表右图标样式*/
+.aui-list-item-phone {
+  font-family:"aui_iconfont" !important;
+   padding-right: 0.75rem;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.aui-list-item-phone:before {
+    content: "\e6c4";
+    width: 1.4rem;
+    height: 1.4rem;
+    position: absolute;
+    top: 50%;
+    right: 0.75rem;
+    margin-top: -0.7rem;
+    background: transparent;
+    border-top: none;
+    border-right: none;
+    z-index: 2;
+    text-align: center;;
+     -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.aui-list-item.aui-list-item-phone {
+    padding-right: 0.75rem;
+}

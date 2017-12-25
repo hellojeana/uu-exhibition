@@ -1,0 +1,7 @@
+import jquery from '@/assets/js/jquery.js'
+import aui_api from '@/assets/vendor/aui-v2.1/script/api.js'
+import aui_toast from '@/assets/vendor/aui-v2.1/script/aui-toast.js'
+import aui_css from '@/assets/vendor/aui-v2.1/css/aui.css'
+import api_css from '@/assets/vendor/aui-v2.1/css/api.css'
+import jquery_rotate from'@/assets/js/jquery.rotate.min.js'
+// import api_balde from '@/assets/vendor/aui-v2.1/css/api-balde.css'
