@@ -114,12 +114,6 @@ export default{
                 duration: 6000,
                 animateTo: 50
             })
-        },
-        hah: function () {
-            console.log('a');
-        },
-        hah2: function () {
-            console.log('b')
         }
     }
 }

@@ -1,14 +1,8 @@
 <template>
     <div class="hello">
-        <h1></h1>
-        <div v-for="value in allUser.questions">
-            <span>{{value.content}}</span><br/>
-            <span v-for="one in value.question_options" style="margin-left: 20px;">{{one.content}}{{one.percent}}</span>
-        </div>
-        <div v-for="value in allUser.candidates">
-            <img :src="value.avatar"/>
-            <span>{{value.display_name}} - {{value.city}}</span>
-        </div>
+        <h1>快速导航</h1>
+        <router-link to="/mode1">转盘页面</router-link>
+        <router-link to="/match">匹配成功页面</router-link>
     </div>
 </template>
 

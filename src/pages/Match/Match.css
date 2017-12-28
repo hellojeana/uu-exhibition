@@ -1,0 +1,31 @@
+.blue{
+  background-color: #e3ecf1;
+}
+
+.match-tip{
+  color: #3f51b5;
+  text-align: center;
+  padding: 50px;
+}
+
+.prize{
+  margin: 10% auto;
+  margin-bottom: 20%;
+  text-align: center;
+  height: 200px;
+  width: 200px;
+  border: #1a1a1a solid 2px;
+}
+
+.bottom-btn-desc{
+  color: #fff;
+}
+
+.bottom-btn{
+  margin: 5% auto;
+  width: 80%;
+}
+
+.inner-4{
+  padding-bottom: 300px;
+}
