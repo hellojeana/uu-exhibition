@@ -1,5 +1,11 @@
 .blue{
-    background-color: #fff;
+    background-color: #e3ecf1;
+}
+
+.match-tip{
+    color: #3f51b5;
+    text-align: center;
+    padding: 50px;
 }
 
 .prize{

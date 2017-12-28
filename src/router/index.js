@@ -4,6 +4,7 @@ import HelloWorld from '@/components/HelloWorld'
 import Mode1 from '@/pages/Mode1/Mode1.vue'
 import Match from '@/pages/Match/Match.vue'
 import Info from '@/pages/Info/Info.vue'
+import Invite from '@/pages/Invite/Invite.vue'
 
 Vue.use(Router)
 
@@ -28,7 +29,11 @@ export default new Router({
       path: '/info',
       name: 'info',
       component: Info
+    },
+    {
+      path: '/invite',
+      name: 'invite',
+      component: Invite
     }
-
   ]
 })
