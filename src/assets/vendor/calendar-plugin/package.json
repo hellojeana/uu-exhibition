@@ -1,0 +1,66 @@
+{
+  "_from": "calendar-plugin",
+  "_id": "calendar-plugin@1.0.1",
+  "_inBundle": false,
+  "_integrity": "sha1-HEf0ycTZEejCGezKLJ+/I6fo9ho=",
+  "_location": "/calendar-plugin",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "calendar-plugin",
+    "name": "calendar-plugin",
+    "escapedName": "calendar-plugin",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/calendar-plugin/-/calendar-plugin-1.0.1.tgz",
+  "_shasum": "1c47f4c9c4d911e8c219ecca2c9fbf23a7e8f61a",
+  "_spec": "calendar-plugin",
+  "_where": "/Users/jeana/Desktop/workspace/uu-exhibition",
+  "author": {
+    "name": "oyh",
+    "email": "919917215@qq.com"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "bugs": {
+    "url": "https://github.com/Reusjs/calendar-plugin/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "A Vue.js project",
+  "devDependencies": {},
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "homepage": "https://github.com/Reusjs/calendar-plugin",
+  "keywords": [
+    "calendar",
+    "Vue",
+    "html",
+    "js",
+    "es6",
+    "plugin"
+  ],
+  "name": "calendar-plugin",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Reusjs/calendar-plugin.git"
+  },
+  "scripts": {
+    "build": "node build/build.js",
+    "dev": "node build/dev-server.js"
+  },
+  "version": "1.0.1"
+}

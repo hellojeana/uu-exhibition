@@ -1,31 +1,56 @@
-.blue{
-  background-color: #e3ecf1;
+.blue {
+    background-color: #f5edde;
 }
 
-.match-tip{
-  color: #3f51b5;
-  text-align: center;
-  padding: 50px;
+.match-tip {
+    color: red;
+    text-align: center;
+    font-family: '微软雅黑';
+    display: none;
 }
 
-.prize{
-  margin: 10% auto;
-  margin-bottom: 20%;
-  text-align: center;
-  height: 200px;
-  width: 200px;
-  border: #1a1a1a solid 2px;
+.prize-container {
+    margin: 0 auto;
+    margin-bottom: 10%;
+    text-align: center;
+    /*height: 200px;*/
+    width: auto;
+    z-index: 8888;
+    display: none;
 }
 
-.bottom-btn-desc{
-  color: #fff;
+.prize-logo {
+    margin: 0 auto;
+    margin-top: -48%;
+    height: 100px;
+    width: 100px;
+    z-index: 9999;
 }
 
-.bottom-btn{
-  margin: 5% auto;
-  width: 80%;
+.red-btn-desc {
+    color: #fff;
 }
 
-.inner-4{
-  padding-bottom: 300px;
+.red-btn,
+.yellow-btn{
+    margin: 5% auto;
+    width: 80%;
+    display: none;
 }
+.red-btn {
+    background-color: red;
+}
+
+.inner-4 {
+    padding-bottom: 300px;
+}
+
+.yellow-btn {
+    background-color: #fee349;
+}
+
+.yellow-btn-desc {
+    color: #f93617;
+}
+
+

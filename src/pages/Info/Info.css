@@ -1,14 +1,17 @@
-.blue{
+.bg-color{
     background-color: #fff;
 }
 
-.prize{
-    margin: 10% auto;
-    margin-bottom: 20%;
+.blue{
+    background-color: #f93617;
+}
+
+.avatar{
+    margin: 15% auto;
+    margin-bottom: 15%;
     text-align: center;
     height: 200px;
     width: 200px;
-    border: #1a1a1a solid 2px;
 }
 
 .bottom-btn-desc{
@@ -17,9 +20,6 @@
 
 .bottom-btn{
     margin: 5% auto;
+    margin-top: -5%;
     width: 80%;
-}
-
-.inner-4{
-    padding-bottom: 300px;
 }

@@ -57,15 +57,15 @@
 
 .rotary-container {
   position: relative;
-  width: 300px;
-  height: 400px;
+  width: 255px;
+  height: 375px;
   margin: 0 auto;
 }
 
 .box {
   position: absolute;
-  width: 80px;
-  height: 80px;
+  width: 70px;
+  height: 70px;
   background: #000;
   border-radius: 40px;
   filter: blur(4px);
@@ -77,8 +77,10 @@
 
 .dot {
   position: absolute;
-  width: 80px;
-  height: 80px;
+  width: 90px;
+  height: 90px;
+  margin-left: -10px;
+  margin-top: -10px;
   border-radius: 50px;
   transform: scale(1.4);
   border: 2px solid rgba(166, 214, 209, 0.69);

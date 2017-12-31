@@ -1,21 +1,35 @@
 import ChooseSex from '@/components/choose/ChooseSex.vue'
 import FormLi from '@/components/input/FormLi.vue'
+import VDistpicker from 'v-distpicker'
+import calendarInput from '@/assets/vendor/calendar-plugin/calendar-input.vue'
 export default{
   components:{
     ChooseSex,
-    FormLi
+    FormLi,
+    VDistpicker,
+    calendarInput
   },
   data(){
     return{
       birthday:'1997-01-29',
       sex:0,
-      city:'',
-      phone:''
+      phone:'',
+      province: '',
+      city: ''
     }
   },
   methods: {
-    getContent: function () {
-      alert(this.editorContent)
-    }
+
+      // 城市选择
+      selectProvince(value) {
+          this.province = value.value
+          console.log(this.province);
+      },
+      selectCity(value) {
+          this.city = value.value
+          console.log(this.city);
+      },
+      // 时间选择
+
   }
 }

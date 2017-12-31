@@ -24,7 +24,7 @@ export default{
                 //起始角度
                 var stard = 0;
                 //半径
-                var radius = 130;
+                var radius = 120;
                 //每一个BOX对应的角度;
                 var avd = 360 / $(".box").length + stard;
                 console.log($(".box:eq(1)").offset().top);

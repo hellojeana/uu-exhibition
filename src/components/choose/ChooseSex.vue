@@ -70,6 +70,7 @@
         display: inline-block;
         vertical-align: middle;
         margin: 0;
+        margin-right: 10px;
         padding: 0;
         width: 60px;
         height: 25px;
@@ -134,7 +135,7 @@
         width: 30px;
         height: 25px;
         line-height: 25px;
-        background: #F7836D;
+        background: #f93617;
         text-align: center;
     }
 

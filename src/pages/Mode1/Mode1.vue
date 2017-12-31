@@ -41,7 +41,7 @@
         </div>
       </div>
       <div class="aui-content aui-margin-t-10">
-        <div class="skip">跳过问题></div>
+        <div class="skip" @click="getClick">跳过问题></div>
       </div>
     </div>
   </div>
