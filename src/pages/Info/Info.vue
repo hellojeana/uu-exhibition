@@ -1,6 +1,6 @@
 <template>
     <div class="root">
-      <header class="aui-bar aui-bar-nav blue">完善资料{{city.value}}</header>
+      <header class="aui-bar aui-bar-nav blue">完善资料</header>
       <div class="aui-content bg-color">
         <div class="aui-content">
           <div class="avatar">
@@ -30,7 +30,7 @@
                 <div class="aui-list-item-inner">
                   <div class="aui-list-item-label">您的生日是？</div>
                   <div class="aui-list-item-input"  style="height: 300px">
-                    <calendar-input :isRed="true"></calendar-input>
+                    <calendar-input :limit="limit" :isRed="true" @getValue="getVal"></calendar-input>
                   </div>
                 </div>
               </li>

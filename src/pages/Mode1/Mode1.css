@@ -60,6 +60,7 @@
   width: 255px;
   height: 375px;
   margin: 0 auto;
+  margin-top: 10%;
 }
 
 .box {
@@ -93,5 +94,5 @@
 .skip{
   text-align: center;
   padding-top: 20px;
-  padding-bottom: 300px;
+  padding-bottom: 130px;
 }
